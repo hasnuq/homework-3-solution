@@ -4,7 +4,6 @@ public class MUDPrototypeDemo {
         NPC originalNPC = new NPC("Skeleton");
         Room clonedRoom = originalRoom.cloneEntity();
         NPC clonedNPC1 = originalNPC.cloneEntity();
-        clonedRoom = new Room(clonedRoom.getName());
 
         System.out.println("Original Room: " + originalRoom.getName());
         System.out.println("Cloned Room: " + clonedRoom.getName());
